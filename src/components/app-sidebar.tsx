@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { BookOpen, Frame, Map, PieChart, Settings, SquareTerminal } from 'lucide-react';
+import { BookOpen, Frame, Map, Settings, SquareTerminal } from 'lucide-react';
 
 import { NavMain } from '@/components/nav-main';
 import { NavProjects } from '@/components/nav-projects';
@@ -34,14 +34,9 @@ const data = {
   ],
   projects: [
     {
-      name: 'Design Engineering',
+      name: 'Learning English',
       url: '#',
       icon: Frame,
-    },
-    {
-      name: 'Sales & Marketing',
-      url: '#',
-      icon: PieChart,
     },
     {
       name: 'Travel',
